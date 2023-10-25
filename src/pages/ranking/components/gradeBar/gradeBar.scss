@@ -1,0 +1,34 @@
+.grade-bar-root{
+    display: flex;
+
+    .item {
+        height: 10px;
+    }
+
+    .grade-column {
+        display: flex;
+        flex: 1;
+        gap: .1em;
+    }
+    .grade-row {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        gap: 3px;
+
+        .row{
+            display: flex;
+            flex: 1;
+        }
+        .other {
+            flex: 1;
+        }
+    }
+
+    .A { background-color: #ffd966; }
+    .B { background-color: #bfbfbf; }
+    .C { background-color: #f8cbad; }   
+    .other { background-color: #eee; }
+    
+
+}

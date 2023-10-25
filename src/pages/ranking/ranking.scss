@@ -1,0 +1,37 @@
+.ranking-root {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    .carousel {
+
+        .ranking-icon {
+            position: absolute;
+
+            top: 1rem;
+            left: 1rem;
+            
+            width: 2rem;
+            height: 2rem;
+            text-align: center;
+            line-height: 2rem;
+
+            color: white;
+            background-color: red;
+            border-radius: 50%;
+
+        }
+
+        .carousel-item {
+            height: 450px;
+            background-color: #364d79;
+            text-align: center;
+
+            background-position: center center;
+            background-size: contain;
+            background-repeat: no-repeat;            
+            // background-image: url('/image1.png');
+
+        }
+    }
+}
